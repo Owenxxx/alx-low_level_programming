@@ -1,4 +1,4 @@
-#include<main.h>
+#include<include.h>
 /**
  *main - Prints "codex0" followed by a new line.
  *Return: always 0.
