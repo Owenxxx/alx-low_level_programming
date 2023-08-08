@@ -32,5 +32,5 @@ char *_strdup(char *str)
 
 	dup[len] = '\0';
 
-	return (code);
+	return (dup);
 }
