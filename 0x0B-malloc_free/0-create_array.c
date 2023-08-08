@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * create_array - Creates an array of characters, initializes it with a
  *                specific character, and returns a pointer to the array
@@ -10,19 +11,19 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *o;
-unsigned int i;
+	char *p;
+	unsigned int i = 0;
 
 	if (size == 0)
-	{ 
-	return(NULL);
-	}
-        o = malloc(sizeof(char)* size);
+		return (NULL);
 
-	if (0 == NULL)
-		return  (0);
-	for (i = 0 ; i < size ; i++)
-		o[i] = c;
-			return (o);
+	p = (char *) malloc(sizeof(char) * size);
 
+	if (p == NULL)
+		return (0);
+
+	for (i = 0; i < size; i++)
+		p[i] = c;
+
+	return (p);
 }
