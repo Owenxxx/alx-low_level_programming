@@ -23,6 +23,6 @@ unsigned int i;
 		return  (0);
 	for (i = 0 ; i < size ; i++)
 		o[i] = c;
-			return (i);
+			return (o);
 
 }
