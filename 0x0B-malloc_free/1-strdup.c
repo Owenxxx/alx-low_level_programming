@@ -13,7 +13,7 @@
 
 char *_strdup(char *str)
 {
-	char *code;
+	char dup;
 	int index, len = 0;
 
 	if (str == NULL)
@@ -30,7 +30,7 @@ char *_strdup(char *str)
 	for (index = 0; str[index]; index++)
 		dup[index] = str[index];
 
-	code[len] = '\0';
+	dup[len] = '\0';
 
 	return (code);
 }
