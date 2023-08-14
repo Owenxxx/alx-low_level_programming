@@ -1,1 +1,1 @@
-my readme project 0x0e bt codex0
+First project in c language
